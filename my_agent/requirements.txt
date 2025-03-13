@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain-cohere
+langgraph
+langchain-groq
+langchain-pinecone
+
