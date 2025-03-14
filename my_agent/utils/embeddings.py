@@ -1,6 +1,6 @@
 from pinecone import Pinecone
 from langchain_pinecone import PineconeVectorStore
-from config import get_embeddings, PINECONE_API_KEY, PINECONE_INDEX_NAME
+from my_agent.utils.config import get_embeddings, PINECONE_API_KEY, PINECONE_INDEX_NAME
 
 def setup_vector_store():
     # Initialize embeddings
