@@ -1,7 +1,8 @@
 from langgraph.graph import END
 from langgraph.prebuilt import tools_condition
 from langgraph.graph import MessagesState, StateGraph
-from utils.nodes import query_or_respond, tools, generate
+from my_agent.utils.nodes import query_or_respond, tools
+from my_agent.utils.state import generate
 # Build the graph
 graph_builder = StateGraph(MessagesState)
 graph_builder.add_node(query_or_respond)
