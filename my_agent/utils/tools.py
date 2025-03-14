@@ -1,4 +1,4 @@
-from my_agent.utils import vector_store
+from my_agent.utils.embeddings import vector_store
 
 
 
