@@ -1,7 +1,11 @@
 from langgraph.prebuilt import ToolNode
 
 from my_agent.utils.tools import retrieve
-from my_agent.utils import llm
+from my_agent.utils.config import get_llm
+
+llm = get_llm()
+
+
 from langgraph.graph import MessagesState, StateGraph
 # Step 1: Generate an AIMessage that may include a tool-call to be sent.
 def query_or_respond(state: MessagesState):
