@@ -13,7 +13,7 @@ A modular, professional-grade legal assistant built with **LangChain**, **LangGr
 ```
 project/
 ├── src/                    # Core package containing application logic
-│   ├── __init__.py        # Marks src as a Python package          # Configuration and environment variables
+│   ├── __init__.py        # Marks src as a Python package          
 │   ├── embeddings.py      # Vector store and embedding setup
 │   ├── tools.py           # Tool definitions (e.g., retriever_tool)
 │   ├── nodes.py           # Node functions for the graph (agent, rewrite, etc.)
