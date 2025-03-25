@@ -5,12 +5,12 @@ from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 from langchain_core.messages import HumanMessage, AIMessage
 
 # Streamlit UI
-st.title("Legal Rag Agent")
+st.title("🤖 Legal Rag Agent")
 
 # Initialize session state
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
-        {"role": "assistant", "content": "Hi, I'm a Legal Rag Agent"}
+        {"role": "assistant", "content": "Hi,How can i help you?"}
     ]
 
 # Display chat history
