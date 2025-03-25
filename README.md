@@ -33,9 +33,9 @@ project/
 
 ## Setup Instructions
 
-1. **Clone the Repository** (if applicable):
+1. **Clone the Repository** :
    ```bash
-   git clone https://github.com/yourusername/legal-rag-agent.git
+   git clone https://github.com/abdulbasit-data-science/Legal_Rag_Agent.git
    cd legal-rag-agent
    ```
 
@@ -69,7 +69,7 @@ project/
 
 ## Usage
 - Launch the app using the command above.
-- Type a legal query in the input box (e.g., "What are the penalties for breach of contract in California?").
+- Type a legal query in the input box (e.g., "What is state court?").
 - The agent will retrieve relevant legal information and generate a response based on its knowledge base.
 
 ## Development
@@ -103,16 +103,11 @@ Key libraries used (see `requirements.txt` for full list):
 4. Push to the branch: `git push origin feature/your-feature-name`.
 5. Open a pull request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details (create this file if needed).
-
 ## Acknowledgments
 - Built with tools from [LangChain](https://github.com/langchain-ai/langchain), and [Streamlit](https://streamlit.io/).
 - Inspired by RAG architectures for domain-specific applications.
 
 ## Contact
-For questions or issues, please open an issue on GitHub or contact [your-email@example.com](mailto:your-email@example.com).
-```
+For questions or issues, please open an issue on GitHub or contact abdulbasit.sarfaraz@gmail.com.
 
----
 
